@@ -16,4 +16,6 @@ phases:
       - docker push 415619022182.dkr.ecr.ap-southeast-1.amazonaws.com/microservice:latest
 
 artifacts:
-  files: none
+  files:
+    - "**/*"
+  discard-paths: yes
